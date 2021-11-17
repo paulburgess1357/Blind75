@@ -143,7 +143,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1_TwoSum.h" />
-    <ClInclude Include="2_BestTimeToBuyAndSellStock.h" />
+    <ClInclude Include="121_BestTimeToBuyAndSellStock.h" />
+    <ClInclude Include="217_ContainsDuplicate.h" />
+    <ClInclude Include="238_ProductOfArrayExceptSelf.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

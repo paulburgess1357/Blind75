@@ -23,7 +23,13 @@
     <ClInclude Include="1_TwoSum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="2_BestTimeToBuyAndSellStock.h">
+    <ClInclude Include="121_BestTimeToBuyAndSellStock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="217_ContainsDuplicate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="238_ProductOfArrayExceptSelf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
