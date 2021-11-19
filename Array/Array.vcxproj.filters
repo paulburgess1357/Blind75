@@ -32,5 +32,8 @@
     <ClInclude Include="238_ProductOfArrayExceptSelf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="53_MaximumSubarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

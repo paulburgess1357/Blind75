@@ -146,6 +146,7 @@
     <ClInclude Include="121_BestTimeToBuyAndSellStock.h" />
     <ClInclude Include="217_ContainsDuplicate.h" />
     <ClInclude Include="238_ProductOfArrayExceptSelf.h" />
+    <ClInclude Include="53_MaximumSubarray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
