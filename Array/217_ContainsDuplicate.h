@@ -12,6 +12,8 @@ namespace ContainsDuplicate {
 	class Solution {
 
     public:
+		// Time Complexity: O(n)
+		// Space Complexity: O(n)
         bool containsDuplicate(std::vector<int>& nums) {
             // Store in set and check if set contains number
             std::unordered_set<int> hash_set;
@@ -23,6 +25,7 @@ namespace ContainsDuplicate {
             }
             return false;
         }
+
     };
 
 } // namespace ContainsDuplicate

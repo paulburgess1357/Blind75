@@ -13,7 +13,6 @@ namespace ProductOfArray {
     class Solution {
 
     public:
-
         // Time Complexity: O(n)
         // Space Complexity: O(n)
         std::vector<int> productExceptSelf(std::vector<int>& nums) {

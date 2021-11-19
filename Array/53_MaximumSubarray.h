@@ -39,7 +39,6 @@ namespace MaximumSubarray {
             return maxSubArray;
         }
 
-
     };
 
 } // namespace MaximumSubarray
