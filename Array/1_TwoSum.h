@@ -20,8 +20,8 @@ namespace TwoSum {
 			std::vector<int> result;
 			for (int i = 0; i < nums.size(); i++) {
 				int desiredNumber = target - nums[i];
-				for(int j = i + 1; j < nums.size(); j++) {
-					if(nums[j] == desiredNumber) {
+				for (int j = i + 1; j < nums.size(); j++) {
+					if (nums[j] == desiredNumber) {
 						result.push_back(i);
 						result.push_back(j);
 						return result;
@@ -33,14 +33,14 @@ namespace TwoSum {
 
 		// Time Complexity: O(n)
 		// Space Complexity O(n)
-		std::vector<int> twoSum2(const std::vector<int>&nums, const int target) {
+		std::vector<int> twoSum2(const std::vector<int>& nums, const int target) {
 			std::vector<int> result;
 
 			// Fill hash table and look up number to find:
 			std::unordered_map<int, int> hashMap;
-			for(int i = 0; i < nums.size(); i++) {
+			for (int i = 0; i < nums.size(); i++) {
 				int desiredNumber = target - nums[i];
-				if(hashMap.count(desiredNumber) > 0) {
+				if (hashMap.count(desiredNumber) > 0) {
 					result.push_back(i);
 					result.push_back(hashMap[desiredNumber]);
 					return result;

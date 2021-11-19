@@ -25,4 +25,4 @@ namespace ContainsDuplicate {
         }
     };
 
-}
+} // namespace ContainsDuplicate

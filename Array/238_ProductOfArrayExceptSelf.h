@@ -11,6 +11,7 @@
 namespace ProductOfArray {
 
     class Solution {
+
     public:
 
         // Time Complexity: O(n)
@@ -52,6 +53,7 @@ namespace ProductOfArray {
 
             return result;
         }
+
     };
 
-}
+} // namespace ProductOfArray
