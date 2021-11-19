@@ -29,7 +29,7 @@ namespace BuyStock {
         }
 
         // Time Complexity: O(n)
-		// Space Complexity: (1)
+	// Space Complexity: (1)
         int maxProfit2(const std::vector<int>& prices) {
             int lowestPrice = INT_MAX;
             int maxProfit = 0;
