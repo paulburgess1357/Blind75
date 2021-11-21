@@ -1,10 +1,12 @@
 #pragma once
+#include <vector>
 
 // https://leetcode.com/problems/climbing-stairs/solution/
 
 // You are climbing a stair case.It takes n steps to reach to the top.
 // Each time you can either climb 1 or 2 steps.In how many distinct ways can you climb to the top?
 // Difficulty: Easy
+// The solution below isn't dynamic programming!! TODO: Add DP solution
 
 namespace ClimbingStairs {
 
@@ -17,6 +19,7 @@ namespace ClimbingStairs {
             // This function will recursively add (+1) for all valid paths encountered
             return isStepPathValid(0, totalSteps);
         }
+
     private:
         int isStepPathValid(int currentStep, int destinationStep) {
 
